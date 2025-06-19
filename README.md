@@ -2,8 +2,9 @@
 
 ## Introduction:
 
-This project implements two versions of inverted indexing program using Hazelcast’s distributed map that maintains a database of <key, value> items, each with key = a file name and value = its text data. One 
-version is InvertedIndexingLocal.java that retrieves each file from the database, counts the occurrences of a given word, and prints out the file name and the number of occurrences. The other version is InvertedIndexingRemote.java that dispatches InvertedIndexingEach.class to each remote cluster node where it counts the occurrences of a given word in only files local to that remote node. The purpose of this project is to understand Hazelcast’s mechanism of remote execution and to measure its execution performance. 
+This project implements two versions of inverted indexing program using Hazelcast’s distributed map that maintains a database of <key, value> items, each with key = a file name and value = its text data. One version is InvertedIndexingLocal.java that retrieves each file from the database, counts the occurrences of a given word, and prints out the file name and the number of occurrences. The other version is InvertedIndexingRemote.java that dispatches InvertedIndexingEach.class to each remote cluster node where it counts the occurrences of a given word in only files local to that remote node. The purpose of this project is to understand Hazelcast’s mechanism of remote execution and to measure its execution performance. 
+
+<img width="488" alt="image" src="https://github.com/user-attachments/assets/b6bbf46b-999b-47e6-802d-4754e5ddf93b" />
 
 ## Documentation:
 
